@@ -89,7 +89,7 @@
                     <div class="card">
                         <div class="user-info">
                             @if($user->profile_picture)
-                                <img src="{{ asset('storage/' . $user->profile_picture) }}" alt="{{ $user->name }}'s Profile Picture" class="profile-img">
+                                <img src="{{ $user->profile_picture }}" alt="{{ $user->name }}'s Profile Picture" class="profile-img">
                             @else
                                 <img src="{{ asset('images/default-profile.jpg') }}" alt="Default Profile Picture" class="profile-img">
                             @endif
