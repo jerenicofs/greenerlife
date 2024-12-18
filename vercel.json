@@ -24,7 +24,7 @@
     "env": {
         "APP_ENV": "production",
         "APP_DEBUG": "false",
-        "APP_URL": "http://localhost",
+        "APP_URL": "https://greenerlife-beta.vercel.app/",
         "APP_KEY": "base64:S0grPpLIEGtbNBoxlKfqy4PVLrTLNhYyW5wfhjBh2xc=",
         "APP_CONFIG_CACHE": "/tmp/config.php",
         "APP_EVENTS_CACHE": "/tmp/events.php",
