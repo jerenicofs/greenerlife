@@ -15,6 +15,11 @@ return new class extends Migration
             $table->id();
             $table->string('name');
             $table->string('email')->unique();
+            $table->longText('profile_picture')->nullable();
+            $table->integer('age')->nullable();
+            $table->text('bio')->nullable();
+            $table->integer('points')->default(0);
+            $table->json('badges')->nullable();
             $table->timestamp('email_verified_at')->nullable();
             $table->string('password');
             $table->rememberToken();
