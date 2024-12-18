@@ -187,7 +187,8 @@
         </div>
 
 
-        {{ $posts->links() }}
+        {{ $posts->links('pagination::bootstrap-5') }}
+
     </div>
 
     <style>
